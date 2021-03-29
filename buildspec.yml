@@ -10,7 +10,7 @@ phases:
     commands:
       -npm build
       -npm test
-  artifacts:
-    files:
-      -src/**/*
-      -package.json
+artifacts:
+  files:
+    -src/**/*
+    -package.json
