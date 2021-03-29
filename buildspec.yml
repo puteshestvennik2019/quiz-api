@@ -5,12 +5,12 @@ phases:
       nodejs: 12
   pre_build:
     commands:
-      -npm install
+      - npm install
   build:
     commands:
-      -npm build
-      -npm test
+      - npm build
+      - npm test
 artifacts:
   files:
-    -src/**/*
-    -package.json
+    - src/**/*
+    - package.json
